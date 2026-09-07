@@ -138,7 +138,7 @@ def main():
     glutInit()
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB)
     glutInitWindowSize(800, 600)
-    glutCreateWindow(b"Bouncing Emojis (Constant Speed)")
+    glutCreateWindow(b"Bouncing Emojis")
 
     init_gl()
     glutDisplayFunc(render)
